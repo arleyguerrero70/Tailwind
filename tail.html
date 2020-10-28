@@ -10,31 +10,50 @@
 <body>
     <div class="container mx-auto">
         <div>
-            <h1>Tailwind</h1>
+            <h1 class="text-green-900">Tailwind</h1>
         </div>
-        <div>
+        <div class="m-5">
             <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Mi botón</button>
             <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded sm:bg-orange-500 md:bg-blue-500 lg:bg-yellow-500 xl:bg-pink-500">Boton responsive</button>
         </div>
-        <div><!--Preligth-->
-            <h1>Este es el H1</h1>
-            <h2>Este es el H2</h2>
-        </div>
         <div class="m-5 p-5 border">
-            <p>
-                se asigna el margen de la siguiente manera:<br>
-                M: hace referencia a que se ajustara la propiedad de <b>MARGIN.</b><br><br>
-                mt: margin-top<br>mb: margin-bottom<br>ml:margin-left<br>mr: margin-rigth<br>
-                mx: margin-lef, margin-rigth<br>my: margin-top, margin-bottom<br>
-                El número hace referencia a unidades REM, se clasifican de la siguiente manera:<br>
-                1: 0.25rem -> 4px<br> 2: 0.5rem -> 8px<br>3: 0.75rem-> 12px<br>4: 1rem -> 16px<br>
-                <h1>Funciona de la misma manera con el PADDING</h1>
-            </p>
-            <h1>En este parrafo vamos</h1>
-            <p class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
-                Con la propiedad "text-md" asignamos el tañamo del texto se le agrega el tamano despues del guión
-            </p>
-        </div>
+            <div>
+                <h1>Margin & Padding</h1>
+                <p>
+                    Se asigna el margen de la siguiente manera:<br>
+                    M: hace referencia a que se ajustara la propiedad de <b>Margin.</b><br>
+                    mt: margin-top<br>mb: margin-bottom<br>ml:margin-left<br>mr: margin-rigth<br>
+                    mx: margin-lef, margin-rigth<br>my: margin-top, margin-bottom<br>
+                    El número hace referencia a unidades REM, se clasifican de la siguiente manera:<br>
+                    1: 0.25rem -> 4px<br> 2: 0.5rem -> 8px<br>3: 0.75rem-> 12px<br>4: 1rem -> 16px<br>
+                    <h2 class="text-xl"><b>Funciona de la misma manera con el PADDING</b></h2>
+                </p>
+            </div>
+            <div>        
+                <h1>Propiedad de tamaño en el texto</h1>
+                <p class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
+                    Con la propiedad "text-md" asignamos el tañamo del texto se le agrega el tamano despues del guión
+                </p>
+                <p class="text-yellow-500 bg-red-500 test-justify">
+                    En este parrafo vamos a agregar el el color a un texto<br>
+                    "text-gray-900" -> con text invocamos el valor texto, el "gray" el color que queramos invocar, el número inicia en 100 (siendo el más claro) y términa en 900 (siendo el más fuerte)
+                </p>
+            <div>
+                <!--<picture>
+                    <source media="(min-width:650px)" srcset="img/sshot-96.jpg">Imagen más grande
+                    <source media="(min-width:465px)" srcset="img/music.jpg">Imagen mediana
+                    <img src="img/flash-en-the-batman.jpg" alt="Batman" >Imagen predeterminada
+                </picture>-->
+            </div>
+            <div>
+                <h1 class="text-center">Este será el texto centrado con la </h1>
+            </div>
+            <div class="bg-pink-500 text-white">
+                <p class="text-center p-2 m-2">
+                    En esta sección estamos agregando un fondo "bg-pink-500" con un color white
+                </p>
+            </div>
+            </div>
     </div>
     
 </body>
